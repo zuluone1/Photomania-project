@@ -1,0 +1,176 @@
+/*/////////////////////// NAVBAR /////////////////////////*/
+
+.navbar-brand:hover {
+    background-image:
+}
+
+.navbar,
+footer {
+    background-color: #D1D1D1;
+}
+
+
+/* Liens menu soulignés */
+.navbar-nav li > a {
+    position: relative;
+    color: #5C5346;
+    text-decoration: none;
+}
+
+.navbar-nav li > a:hover {
+    color: #000;
+}
+
+.navbar-nav li > a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 10px;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.navbar-nav li > a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+/* Liens menu soulignés */
+
+.navbar .btn-search {
+    background-color: #5C5346;
+    color: #D1D1D1;
+    transition: ease-out 0.6s;
+}
+
+.navbar .form-inline .btn-search:hover {
+    background-color: white;
+    color: #5C5346;
+    transition: ease-out 0.6s;
+}
+
+.navbar .navbar-toggler-icon {
+
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(92,83,70, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+/*/////////////////////// FOOTER /////////////////////////*/
+
+footer button {
+    background-color: #5C5346;
+}
+
+footer .btn-fb {
+    transition: ease-out 0.4s;
+}
+
+footer .btn-fb:hover {
+    background-color: #445eb3;
+    transition: ease-out 0.4s;
+}
+
+footer .btn-tw {
+    transition: ease-out 0.4s;
+}
+
+footer .btn-tw:hover {
+    background-color: #009bf6;
+    transition: ease-out 0.4s;
+}
+
+footer .btn-insta {
+    transition: ease-out 0.4s;
+}
+
+footer .btn-insta:hover {
+    background-color:  #6e00d8;
+    transition: ease-out 0.4s;
+}
+
+footer a {
+    color: #5C5346;
+    transition: 0.6s;
+}
+
+/* Lien mentions légales souligné */
+footer .mentionLegales h6 > a {
+    position: relative;
+    color: #5C5346;
+    text-decoration: none;
+}
+
+footer .mentionLegales h6 > a:hover {
+    color: #000;
+}
+
+footer .mentionLegales h6 > a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+footer .mentionLegales h6 > a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+/* Lien mentions légales souligné  */
+
+
+footer .copyright {
+    background-color: #5C5346;
+}
+
+footer .copyright h6{
+    display: inline;
+}
+
+/* Lien mentions légales souligné */
+footer .copyright h6 > a {
+    position: relative;
+    color: #D1D1D1;
+    text-decoration: none;
+}
+
+footer .copyright h6 > a:hover {
+    color: #000;
+}
+
+footer .copyright h6 > a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+footer .copyright h6 > a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+/* Lien mentions légales souligné  */
