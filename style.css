@@ -69,7 +69,7 @@ p{
 
 
 /*/////////////////////// MAIN /////////////////////////*/
-main {
+main, .article-head-photo {
     margin-top: 60px;
 }
 
@@ -137,6 +137,36 @@ main {
     padding: 0;
 }
 
+.canon5D h1{
+    font-family: Libre Baskerville;
+    color: #006A08;
+    font-size: 2.3em;
+    display: inline;
+}
+
+.canon5D figcaption{
+    font-family: Source sans Pro;
+}
+
+.other-articles h3{
+    font-family: Libre Baskerville;
+    color: #006A08;
+    font-size: 1.2em;
+}
+
+.other-articles .card .card-title{
+    font-family: Libre Baskerville;
+    color: #006A08!important;
+    font-size: 0.8em;
+}
+
+.other-articles .card .card-footer{
+    background-color: #141910;
+}
+
+.other-articles .card-footer .text-muted{
+    color: white!important;
+}
 /*/////////////////////// CONTACT /////////////////////////*/
 
 .the-team {
