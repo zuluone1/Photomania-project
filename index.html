@@ -3,247 +3,316 @@
 
 <head>
 
-	<meta charset="utf-8">
-	<!--lien css-->
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="icon" type="image/png" href="logo-black-favicon.png" />
-	<title>Photomania - For photography lovers</title>
+    <meta charset="utf-8">
 
-	<!-- Awesome Font -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-	<!--- BOOTSRAP CDN --->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	
+    <link rel="icon" type="image/png" href="logo-black-favicon.png" />
+    <title>Photomania - For photography lovers</title>
+
+    <!--- BOOTSRAP CDN --->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <!--STYLESHEET-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- FONTS -->
+    <!-- Awesome Font -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <!-- Libre Baskerville (titres) & Source Sans pro (texte) -->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Source+Sans+Pro" rel="stylesheet">
 </head>
 
-<<<<<<< HEAD
 <body>
 
-	<!-- Nav -->
-	<nav class="navbar fixed-top navbar-expand-lg">
-		<a class="navbar-brand" href="#"><img src="logo-black-title-150.png" alt=""></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
+    <!-- Nav -->
+    <nav class="navbar fixed-top navbar-expand-xl">
+        <a class="navbar-brand" href="index.html"><img src="logo-white-title-150.png" alt=""></a>
 
-		<div class="collapse navbar-collapse " id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto ml-3 ">
-				<li class="nav-item mr-5 ">
-					<a class="nav-link " href="#">Matériel</a>
-				</li>
-				<li class="nav-item mr-5">
-					<a class="nav-link" href="#">Prise de vue</a>
-				</li>
-				<li class="nav-item mr-5">
-					<a class="nav-link" href="#">Retouches</a>
-				</li>
-				<li class="nav-item mr-5">
-					<a class="nav-link" href="#">Galerie</a>
-				</li>
-				<li class="nav-item mr-5">
-					<a class="nav-link" href="#">Contact</a>
-				</li>
-			</ul>
-			<form class="form-inline my-2 my-lg-0">
-				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-				<button class="btn btn-search my-2 my-sm-0" type="submit">Search</button>
-			</form>
-		</div>
-	</nav>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse text-center mt-3" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto ml-5 ">
+                <li class="nav-item mb-md-3 mb-sm-3  mr-5 ">
+                    <a class="nav-link" href="materiel.html">Matériel</a>
+                </li>
+                <li class="nav-item mb-md-3 mb-sm-3 mr-5">
+                    <a class="nav-link" href="prise-de-vue.html">Prise de vue</a>
+                </li>
+                <li class="nav-item mb-md-3 mb-sm-3 mr-5">
+                    <a class="nav-link" href="retouches.html">Retouches</a>
+                </li>
+                <li class="nav-item mb-md-3 mb-sm-3 mr-5">
+                    <a class="nav-link" href="galerie.html">Galerie</a>
+                </li>
+                <li class="nav-item mb-md-3 mb-sm-3 mr-5">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <form class="form-inline mb-md-3 mb-sm-3 d-flex justify-content-center">
+                <input class="form-control col-md-5 mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-search my-2 my-sm-0 " type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <!-- Fin nav -->
 
-	<main>
-		<article>
-			<!--SLIDESHOW du debut avec trois tof minimum mais on peux en rajouter-->
-			<div id="carouselExampleFade" class="carousel slide carousel-fade mb-5" data-ride="carousel">
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<div class="photocontainer">
-							<div class="imageone">
-								<img class="d-block w-100" src="https://www.riptidemag.com.au/wp-content/uploads/f4d5b41aabd168336d4ccaf07f498b50.jpg" alt="First slide">
-							</div>	
-							<div class="logo">
-								<!--Juste ici, il faudras mettre le logo d'EVA! avec le lien etc etc -->
-								<div class="text">Photomania</div><br><p class="subtext">For Photography Lovers</p>
-							</div>
-						</div>
-					</div>
-					<div class="carousel-item">
-						<div class="photocontainer">
-							<div class="imageone">
-								<img class="d-block w-100" src="https://www.riptidemag.com.au/wp-content/uploads/03807072d7e91bc720b7e2b8ee4be3ad.jpg" alt="First slide">
-							</div>	
-							<div class="logo">
-								<!--Juste ici, il faudras mettre le logo d'EVA! avec le lien etc etc -->
-								<div class="text">Photomania</div><br><p class="subtext">For Photography Lovers</p>
-							</div>
-						</div>
-					</div>
-					<div class="carousel-item">
-						<div class="photocontainer">
-							<div class="imageone">
-								<img class="d-block w-100" src="https://www.riptidemag.com.au/wp-content/uploads/e0e9d9a6b53de39887ae82d8b220cefb.jpg" alt="First slide">
-							</div>	
-							<div class="logo">
-								<!--Juste ici, il faudras mettre le logo d'EVA! avec le lien etc etc -->
-								<div class="text">Photomania</div><br><p class="subtext">For Photography Lovers</p>
-							</div>
-						</div>
-					</div>
-					
-					
-					<a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="sr-only">Previous</span>
-					</a>
-					<a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="sr-only">Next</span>
-					</a>
-				</div>	
-			</article>
-			<!--Fin du SlideShow-->
+    <main>
+        <article>
+            <!--SLIDESHOW du debut avec trois tof minimum mais on peux en rajouter-->
+            <div id="carouselExampleFade" class="carousel slide carousel-fade mb-5" data-ride="carousel">
+                <div class="carousel-inner">
 
-			<section>
-				<div class="container mb-5">
-					<div class="card-deck">
-						<div class="card">
-							<img class="card-img-top" src="http://3.bp.blogspot.com/-vdUQ9N2gvco/TvLasj45YeI/AAAAAAAAKHQ/bURXoYFX8ZQ/s1600/307064_273389189339185_116342105043895_1289289_7270640_n.jpg" alt="Card image cap">
-							<div class="card-body">
-								<h5 class="card-title">Card title</h5>
-								<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-								<a href="#" class="btn btn-primary">Lire l'article</a>
-							</div>
-							<div class="card-footer">
-								<small class="text-muted">Last updated 3 mins ago</small>
-							</div>
-						</div>
-						<div class="card">
-							<img class="card-img-top" src="http://indosurflife.com/wp-content/uploads/2016/05/wave.jpg" alt="Card image cap">
-							<div class="card-body">
-								<h5 class="card-title">Card title</h5>
-								<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-								<a href="#" class="btn btn-primary">Lire l'article</a>
-							</div>
-							<div class="card-footer">
-								<small class="text-muted">Last updated 3 mins ago</small>
-							</div>
-						</div>
-						<div class="card">
-							<img class="card-img-top" src="https://i.pinimg.com/736x/2d/d9/9a/2dd99adb4e19ac3c66041d61e01713a4--surf-report-surf-news.jpg" alt="Card image cap">
-							<div class="card-body">
-								<h5 class="card-title">Card title</h5>
-								<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-								<a href="#" class="btn btn-primary">Lire l'article</a>
-							</div>
-							<div class="card-footer">
-								<small class="text-muted">Last updated 3 mins ago</small>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="container mb-5">
-					<div class="card-deck">
-						<div class="card">
-							<img class="card-img-top" src="https://soulsurftravel.com/wp-content/uploads/Russell-Ord-Fiji-Photography-Workshop-Matanivuis-Soul-Surf-Travel-Featured-720x400.jpg" alt="Card image cap">
-							<div class="card-body">
-								<h5 class="card-title">Card title</h5>
-								<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-								<a href="#" class="btn btn-primary">Lire l'article</a>
-							</div>
-							<div class="card-footer">
-								<small class="text-muted">Last updated 3 mins ago</small>
-							</div>
-						</div>
-						<div class="card">
-							<img class="card-img-top" src="https://i.pinimg.com/736x/66/53/84/6653848ef005d5a9e2f4f9bdb3785e7c--water-waves-ocean-waves.jpg">
-							<div class="card-body">
-								<h5 class="card-title">Card title</h5>
-								<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-								<a href="#" class="btn btn-primary">Lire l'article</a>
-							</div>
-							<div class="card-footer">
-								<small class="text-muted">Last updated 3 mins ago</small>
-							</div>
-						</div>
-						<div class="card">
-							<img class="card-img-top" src="https://cdn-7.nikon-cdn.com/Images/Learn-Explore/Photography-Techniques/2014/AF-ON-Shooting/Media/Jay-Watson-AF-ON-wave.low.jpg" alt="Card image cap">
-							<div class="card-body">
-								<h5 class="card-title">Card title</h5>
-								<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-								<a href="#" class="btn btn-primary">Lire l'article</a>
-							</div>
-							<div class="card-footer">
-								<small class="text-muted">Last updated 3 mins ago</small>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="container mb-5">
-					<div class="card-deck">
-						<div class="card">
-							<img class="card-img-top" src="https://www.beyond.com.au/images/default-source/productionshows/action-show-margaret-river.jpg?sfvrsn=0">
-							<div class="card-body">
-								<h5 class="card-title">Card title</h5>
-								<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-								<a href="#" class="btn btn-primary">Lire l'article</a>
-							</div>
-							<div class="card-footer">
-								<small class="text-muted">Last updated 3 mins ago</small>
-							</div>
-						</div>
-						<div class="card">
-							<img class="card-img-top" src="https://soulsurftravel.com/wp-content/uploads/rubio-plantation-png-soulsurftravel-featured-1.jpg">
-							<div class="card-body">
-								<h5 class="card-title">Card title</h5>
-								<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-								<a href="#" class="btn btn-primary">Lire l'article</a>
-							</div>
-							<div class="card-footer">
-								<small class="text-muted">Last updated 3 mins ago</small>
-							</div>
-						</div>
-						<div class="card">
-							<img class="card-img-top" src="https://img-lumas-avensogmbh1.netdna-ssl.com/showimg_DRE01_desktop.jpg" alt="Card image cap">
-							<div class="card-body">
-								<h5 class="card-title">Card title</h5>
-								<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-								<a href="#" class="btn btn-primary">Lire l'article</a>
-							</div>
-							<div class="card-footer">
-								<small class="text-muted">Last updated 3 mins ago</small>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-			</section>
-
-		</main>
-
-		<!-- Footer -->
-		<footer>
-			<div class="container-fluid ">
-				<div class="row d-flex justify-content-center ">
-					<button type="button" class="btn btn-fb rounded-circle m-4"><i class="fab fa-facebook-f"></i></button>
-					<button type="button" class="btn btn-tw rounded-circle m-4"><i class="fab fa-twitter"></i></button>
-					<button type="button" class="btn btn-insta rounded-circle m-4"><i class="fab fa-instagram"></i></button>
-				</div>
-				<div class="mentionLegales row d-flex justify-content-center my-2">
-					<h6><a href="#">Mentions légales</a></h6>
-				</div>
-			</div>
-			<div class="copyright text-center py-3"><span>© 2018 Copyright:</span>
-				<h6><a href="#"> Photomania.fr</a></h6>
-			</div>
-		</footer>
+                    <!-- Photo 1 -->
+                    <div class="carousel-item active">
+                        <div class="photocontainer">
+                            <!-- Logo -->
+                            <div class="carousel-caption">
+                                <img class="img-fluid" src="logo-white.png" alt="">
+                            </div>
+                            <div class="imageone">
+                                <img class="d-block w-100" src="https://www.riptidemag.com.au/wp-content/uploads/f4d5b41aabd168336d4ccaf07f498b50.jpg"
+                                    alt="First slide">
+                            </div>
 
 
-		<!--lien bootstrap JS Jquery-->
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-	</body>
+                        </div>
+                    </div>
 
-	</html>
+                    <!-- Photo 2 -->
+                    <div class="carousel-item">
+                        <div class="photocontainer">
+                            <!-- Logo -->
+                            <div class="carousel-caption">
+                                <img class="img-fluid" src="logo-white.png" alt="">
+                            </div>
+                            <div class="imageone">
+                                <img class="d-block w-100" src="https://www.riptidemag.com.au/wp-content/uploads/03807072d7e91bc720b7e2b8ee4be3ad.jpg"
+                                    alt="First slide">
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Photo 3 -->
+                    <div class="carousel-item">
+                        <div class="photocontainer">
+                            <!-- Logo -->
+                            <div class="carousel-caption">
+                                <img class="img-fluid" src="logo-white.png" alt="">
+                            </div>
+                            <div class="imageone">
+                                <img class="d-block w-100" src="https://www.riptidemag.com.au/wp-content/uploads/e0e9d9a6b53de39887ae82d8b220cefb.jpg"
+                                    alt="First slide">
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <!-- Controles du carousel -->
+                    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </article>
+        <!--Fin du SlideShow-->
+
+        <section class="articles-accueil">
+            <div class="container mb-5">
+                <div class="card-deck text-center">
+
+                    <div class="card">
+                        <img class="card-img-top" src="http://3.bp.blogspot.com/-vdUQ9N2gvco/TvLasj45YeI/AAAAAAAAKHQ/bURXoYFX8ZQ/s1600/307064_273389189339185_116342105043895_1289289_7270640_n.jpg"
+                            alt="Card image cap">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                            <a href="#" class="btn btn-primary">Lire l'article</a>
+                        </div>
+                        
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img class="card-img-top" src="http://indosurflife.com/wp-content/uploads/2016/05/wave.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                            <a href="#" class="btn btn-primary">Lire l'article</a>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img class="card-img-top" src="https://i.pinimg.com/736x/2d/d9/9a/2dd99adb4e19ac3c66041d61e01713a4--surf-report-surf-news.jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in
+                                to additional content. This card has even longer content than the first to show that
+                                equal height action.</p>
+                            <a href="#" class="btn btn-primary">Lire l'article</a>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mb-5">
+                <div class="card-deck text-center">
+
+
+                    <div class="card">
+                        <img class="card-img-top" src="https://soulsurftravel.com/wp-content/uploads/Russell-Ord-Fiji-Photography-Workshop-Matanivuis-Soul-Surf-Travel-Featured-720x400.jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                            <a href="#" class="btn btn-primary">Lire l'article</a>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img class="card-img-top" src="https://i.pinimg.com/736x/66/53/84/6653848ef005d5a9e2f4f9bdb3785e7c--water-waves-ocean-waves.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                            <a href="#" class="btn btn-primary">Lire l'article</a>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img class="card-img-top" src="https://cdn-7.nikon-cdn.com/Images/Learn-Explore/Photography-Techniques/2014/AF-ON-Shooting/Media/Jay-Watson-AF-ON-wave.low.jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in
+                                to additional content. This card has even longer content than the first to show that
+                                equal height action.</p>
+                            <a href="#" class="btn btn-primary">Lire l'article</a>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container mb-5">
+                <div class="card-deck text-center">
+
+
+                    <div class="card">
+                        <img class="card-img-top" src="https://www.beyond.com.au/images/default-source/productionshows/action-show-margaret-river.jpg?sfvrsn=0">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                            <a href="#" class="btn btn-primary">Lire l'article</a>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img class="card-img-top" src="https://soulsurftravel.com/wp-content/uploads/rubio-plantation-png-soulsurftravel-featured-1.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                            <a href="#" class="btn btn-primary">Lire l'article</a>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img class="card-img-top" src="https://img-lumas-avensogmbh1.netdna-ssl.com/showimg_DRE01_desktop.jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in
+                                to additional content. This card has even longer content than the first to show that
+                                equal height action.</p>
+                            <a href="#" class="btn btn-primary">Lire l'article</a>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid ">
+            <div class="row d-flex justify-content-center ">
+                <button type="button" class="btn btn-fb rounded-circle m-4"><i class="fab fa-facebook-f"></i></button>
+                <button type="button" class="btn btn-tw rounded-circle m-4"><i class="fab fa-twitter"></i></button>
+                <button type="button" class="btn btn-insta rounded-circle m-4"><i class="fab fa-instagram"></i></button>
+            </div>
+            <div class="mentionLegales row d-flex justify-content-center my-2">
+                <h6><a href="#">Mentions légales</a></h6>
+            </div>
+        </div>
+        <div class="copyright text-center py-3"><span>© 2018 All rights reserved. Development with <i class="fa fa-heart"
+                    aria-hidden="true"></i>
+                by</span>
+            <h6>Photomania Team</h6>
+        </div>
+    </footer>
+    <!-- Fin Footer -->
+
+
+    <!--lien bootstrap JS Jquery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

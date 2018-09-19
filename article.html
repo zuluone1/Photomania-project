@@ -1,148 +1,215 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
-  <!--lien bootstrap-->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-  <!--lien css-->
+  <link rel="icon" type="image/png" href="logo-black-favicon.png" />
+  <title>Photomania - For photography lovers</title>
+
+  <!--- BOOTSRAP CDN --->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+
+  <!--STYLESHEET-->
   <link rel="stylesheet" type="text/css" href="style.css">
 
+  <!-- FONTS -->
   <!-- Awesome Font -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+  <!-- Libre Baskerville (titres) & Source Sans pro (texte) -->
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Source+Sans+Pro" rel="stylesheet">
 
-
-  <title>Photomania</title>
-  
 </head>
 
-  <body>
+<body>
 
-    <!-- Nav -->
-    <nav class="navbar fixed-top navbar-expand-lg">
-        <a class="navbar-brand" href="#"><img src="logo-black-title-150.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+  <!-- Nav -->
+  <nav class="navbar fixed-top navbar-expand-xl">
+    <a class="navbar-brand" href="index.html"><img src="logo-white-title-150.png" alt=""></a>
 
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto ml-3 ">
-                <li class="nav-item mr-5 ">
-                    <a class="nav-link " href="#">Matériel</a>
-                </li>
-                <li class="nav-item mr-5">
-                    <a class="nav-link" href="#">Prise de vue</a>
-                </li>
-                <li class="nav-item mr-5">
-                    <a class="nav-link" href="#">Retouches</a>
-                </li>
-                <li class="nav-item mr-5">
-                    <a class="nav-link" href="#">Galerie</a>
-                </li>
-                <li class="nav-item mr-5">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-search my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div>
-    </nav>
-    <div>
-        <img src="http://vincentcouillard.com/resources/camera.jpg" class="w-100">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center mt-3" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto ml-5 ">
+        <li class="nav-item mb-md-3 mb-sm-3  mr-5 ">
+          <a class="nav-link" href="materiel.html">Matériel</a>
+        </li>
+        <li class="nav-item mb-md-3 mb-sm-3 mr-5">
+          <a class="nav-link" href="prise-de-vue.html">Prise de vue</a>
+        </li>
+        <li class="nav-item mb-md-3 mb-sm-3 mr-5">
+          <a class="nav-link" href="retouches.html">Retouches</a>
+        </li>
+        <li class="nav-item mb-md-3 mb-sm-3 mr-5">
+          <a class="nav-link" href="galerie.html">Galerie</a>
+        </li>
+        <li class="nav-item mb-md-3 mb-sm-3 mr-5">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <form class="form-inline mb-md-3 mb-sm-3 d-flex justify-content-center">
+        <input class="form-control col-md-5 mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-search my-2 my-sm-0 " type="submit">Search</button>
+      </form>
     </div>
+  </nav>
+  <!-- Fin nav -->
 
-      <div class="container">
-        <br>
-        <h2 class="mb-2"> Titre</h2>
-        <p><small class="text-muted mb-5">Last updated 3 mins ago</small></p>
-        <p class="text-justify mb-5"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat aliquet tincidunt. Pellentesque consectetur nibh in nisi tempus volutpat. Mauris vitae elit in purus cursus porttitor vel non quam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean tristique gravida pulvinar. Vestibulum ornare egestas sodales. Proin at aliquam lorem. Vestibulum accumsan pharetra lectus sit amet porta. Nunc egestas nulla et augue venenatis, et posuere nulla euismod. Ut mattis metus eros, vitae tincidunt arcu efficitur sed. Nam ultricies venenatis pretium.
 
-        Nulla egestas mattis magna et ultrices. Phasellus auctor euismod lectus, at feugiat tortor viverra eu. Ut sollicitudin iaculis convallis. Donec finibus volutpat porta. Phasellus et tincidunt tellus, vel tempus velit. Mauris laoreet est in placerat venenatis. Curabitur feugiat efficitur felis. Proin efficitur augue ac volutpat semper. Donec egestas urna lectus, vitae sodales massa egestas ut.
 
-        Praesent sit amet lorem non tortor vehicula fringilla. Vestibulum mattis mi a dignissim laoreet. Aliquam suscipit ex quis libero suscipit sollicitudin. Ut neque justo, dapibus ac condimentum eget, luctus non nisl. Fusce velit sem, tempor eget tempor a, imperdiet at velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer in est id massa consectetur placerat nec vitae lacus. Nulla nec iaculis metus. Suspendisse varius placerat arcu et euismod. Aliquam sit amet semper est. Phasellus commodo vel lorem quis tincidunt. Ut gravida vehicula orci vitae egestas. Ut a ligula ornare, lacinia felis vel, aliquam dui. Sed id nunc augue.
 
-        Suspendisse ultrices rhoncus vestibulum. Donec id quam risus. Pellentesque vulputate sed purus a gravida. Etiam id tortor at dui gravida consectetur et id velit. Nunc non ipsum orci. Nulla eu sem augue. In quam magna, suscipit sit amet sem eget, posuere commodo erat. Vestibulum scelerisque lectus sit amet ante placerat bibendum. Suspendisse eget commodo ex. Mauris ultrices ligula vitae dapibus maximus. In hac habitasse platea dictumst. Suspendisse eget scelerisque velit. Pellentesque ac ante imperdiet mi porta molestie eu vel velit.
+  <div>
+    <img src="http://vincentcouillard.com/resources/camera.jpg" class="w-100">
+  </div>
 
-        Duis ornare quam ex, eget vestibulum dui ultricies at. Vivamus et hendrerit odio. Aliquam erat volutpat. Phasellus efficitur nibh quam, id mollis ex fermentum eu. Nunc dictum condimentum enim ut pharetra. Phasellus non cursus est, vitae egestas mauris. Quisque hendrerit est ac urna commodo tempus. Donec eu congue nunc. Phasellus a tempus velit. Maecenas sed risus finibus, luctus mi et, auctor ipsum. Nulla odio ex, tincidunt a vehicula vel, interdum et lacus. Aenean accumsan, sapien id pretium mollis, nulla orci rhoncus est, quis ullamcorper risus odio et nisi.
+  <div class="container">
+    <br>
+    <h2 class="mb-2"> Titre</h2>
+    <p><small class="text-muted mb-5">Last updated 3 mins ago</small></p>
+    <p class="text-justify mb-5"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat aliquet
+      tincidunt. Pellentesque consectetur nibh in nisi tempus volutpat. Mauris vitae elit in purus cursus porttitor vel
+      non quam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean tristique gravida pulvinar.
+      Vestibulum ornare egestas sodales. Proin at aliquam lorem. Vestibulum accumsan pharetra lectus sit amet porta.
+      Nunc egestas nulla et augue venenatis, et posuere nulla euismod. Ut mattis metus eros, vitae tincidunt arcu
+      efficitur sed. Nam ultricies venenatis pretium.
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat aliquet tincidunt. Pellentesque consectetur nibh in nisi tempus volutpat. Mauris vitae elit in pulvinarus cursus porttitor vel non quam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean tristique gravida pulvinar. Vestibulum ornare egestas sodales. Proin at aliquam lorem. Vestibulum accumsan pharetra lectus sit amet porta. Nunc egestas nulla et augue venenatis, et posuere nulla euismod. Ut mattis metus eros, vitae tincidunt arcu efficitur sed. Nam ultricies venenatis pretium.
+      Nulla egestas mattis magna et ultrices. Phasellus auctor euismod lectus, at feugiat tortor viverra eu. Ut
+      sollicitudin iaculis convallis. Donec finibus volutpat porta. Phasellus et tincidunt tellus, vel tempus velit.
+      Mauris laoreet est in placerat venenatis. Curabitur feugiat efficitur felis. Proin efficitur augue ac volutpat
+      semper. Donec egestas urna lectus, vitae sodales massa egestas ut.
 
-        Nulla egestas mattis magna et ultrices. Phasellus auctor euismod lectus, at feugiat tortor viverra eu. Ut sollicitudin iaculis convallis. Donec finibus volutpat porta. Phasellus et tincidunt tellus, vel tempus velit. Mauris laoreet est in placerat venenatis. Curabitur feugiat efficitur felis. Proin efficitur augue ac volutpat semper. Donec egestas urna lectus, vitae sodales massa egestas ut.
+      Praesent sit amet lorem non tortor vehicula fringilla. Vestibulum mattis mi a dignissim laoreet. Aliquam suscipit
+      ex quis libero suscipit sollicitudin. Ut neque justo, dapibus ac condimentum eget, luctus non nisl. Fusce velit
+      sem, tempor eget tempor a, imperdiet at velit. Class aptent taciti sociosqu ad litora torquent per conubia
+      nostra, per inceptos himenaeos. Integer in est id massa consectetur placerat nec vitae lacus. Nulla nec iaculis
+      metus. Suspendisse varius placerat arcu et euismod. Aliquam sit amet semper est. Phasellus commodo vel lorem quis
+      tincidunt. Ut gravida vehicula orci vitae egestas. Ut a ligula ornare, lacinia felis vel, aliquam dui. Sed id
+      nunc augue.
 
-        Praesent sit amet lorem non tortor vehicula fringilla. Vestibulum mattis mi a dignissim laoreet. Aliquam suscipit ex quis libero suscipit sollicitudin. Ut neque justo, dapibus ac condimentum eget, luctus non nisl. Fusce velit sem, tempor eget tempor a, imperdiet at velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer in est id massa consectetur placerat nec vitae lacus. Nulla nec iaculis metus. Suspendisse varius placerat arcu et euismod. Aliquam sit amet semper est. Phasellus commodo vel lorem quis tincidunt. Ut gravida vehicula orci vitae egestas. Ut a ligula ornare, lacinia felis vel, aliquam dui. Sed id nunc augue.
+      Suspendisse ultrices rhoncus vestibulum. Donec id quam risus. Pellentesque vulputate sed purus a gravida. Etiam
+      id tortor at dui gravida consectetur et id velit. Nunc non ipsum orci. Nulla eu sem augue. In quam magna,
+      suscipit sit amet sem eget, posuere commodo erat. Vestibulum scelerisque lectus sit amet ante placerat bibendum.
+      Suspendisse eget commodo ex. Mauris ultrices ligula vitae dapibus maximus. In hac habitasse platea dictumst.
+      Suspendisse eget scelerisque velit. Pellentesque ac ante imperdiet mi porta molestie eu vel velit.
 
-        Suspendisse ultrices rhoncus vestibulum. Donec id quam risus. Pellentesque vulputate sed purus a gravida. Etiam id tortor at dui gravida consectetur et id velit. Nunc non ipsum orci. Nulla eu sem augue. In quam magna, suscipit sit amet sem eget, posuere commodo erat. Vestibulum scelerisque lectus sit amet ante placerat bibendum. Suspendisse eget commodo ex. Mauris ultrices ligula vitae dapibus maximus. In hac habitasse platea dictumst. Suspendisse eget scelerisque velit. Pellentesque ac ante imperdiet mi porta molestie eu vel velit.
+      Duis ornare quam ex, eget vestibulum dui ultricies at. Vivamus et hendrerit odio. Aliquam erat volutpat.
+      Phasellus efficitur nibh quam, id mollis ex fermentum eu. Nunc dictum condimentum enim ut pharetra. Phasellus non
+      cursus est, vitae egestas mauris. Quisque hendrerit est ac urna commodo tempus. Donec eu congue nunc. Phasellus a
+      tempus velit. Maecenas sed risus finibus, luctus mi et, auctor ipsum. Nulla odio ex, tincidunt a vehicula vel,
+      interdum et lacus. Aenean accumsan, sapien id pretium mollis, nulla orci rhoncus est, quis ullamcorper risus odio
+      et nisi.
 
-        Duis ornare quam ex, eget vestibulum dui ultricies at. Vivamus et hendrerit odio. Aliquam erat volutpat. Phasellus efficitur nibh quam, id mollis ex fermentum eu. Nunc dictum condimentum enim ut pharetra. Phasellus non cursus est, vitae egestas mauris. Quisque hendrerit est ac urna commodo tempus. Donec eu congue nunc. Phasellus a tempus velit. Maecenas sed risus finibus, luctus mi et, auctor ipsum. Nulla odio ex, tincidunt a vehicula vel, interdum et lacus. Aenean accumsan, sapien id pretium mollis, nulla orci rhoncus est, quis ullamcorper risus odio et nisi.</p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat aliquet tincidunt. Pellentesque
+      consectetur nibh in nisi tempus volutpat. Mauris vitae elit in pulvinarus cursus porttitor vel non quam. Interdum
+      et malesuada fames ac ante ipsum primis in faucibus. Aenean tristique gravida pulvinar. Vestibulum ornare egestas
+      sodales. Proin at aliquam lorem. Vestibulum accumsan pharetra lectus sit amet porta. Nunc egestas nulla et augue
+      venenatis, et posuere nulla euismod. Ut mattis metus eros, vitae tincidunt arcu efficitur sed. Nam ultricies
+      venenatis pretium.
 
-      </div>
+      Nulla egestas mattis magna et ultrices. Phasellus auctor euismod lectus, at feugiat tortor viverra eu. Ut
+      sollicitudin iaculis convallis. Donec finibus volutpat porta. Phasellus et tincidunt tellus, vel tempus velit.
+      Mauris laoreet est in placerat venenatis. Curabitur feugiat efficitur felis. Proin efficitur augue ac volutpat
+      semper. Donec egestas urna lectus, vitae sodales massa egestas ut.
 
-      <div class="container mb-2">
-        <h3>Ces articles peuvent également vous intéresser....</h3>
-      </div>
-      <div class="container mb-5">
-        <div class="card-deck">
-          <div class="card">
-            <img class="card-img-top" src="https://i.ytimg.com/vi/xa3FW_FN5C4/maxresdefault.jpg" alt="Card article1">
-            <div class="card-body">
-              <h5 class="card-title font-weight-bold">Titre de l'article</h5>
-              <p class="card-text">Résumé de l'article : cet article est vraiment génial car bla bla bla</p>
-              <a href="#" class="btn btn-primary">Lire l'article</a>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="https://i.ytimg.com/vi/xa3FW_FN5C4/maxresdefault.jpg" alt="Card article1">
-            <div class="card-body">
-              <h5 class="card-title font-weight-bold">Titre de l'article</h5>
-              <p class="card-text">Résumé de l'article : cet article est vraiment génial car bla bla bla</p>
-              <a href="#" class="btn btn-primary">Lire l'article</a>
+      Praesent sit amet lorem non tortor vehicula fringilla. Vestibulum mattis mi a dignissim laoreet. Aliquam suscipit
+      ex quis libero suscipit sollicitudin. Ut neque justo, dapibus ac condimentum eget, luctus non nisl. Fusce velit
+      sem, tempor eget tempor a, imperdiet at velit. Class aptent taciti sociosqu ad litora torquent per conubia
+      nostra, per inceptos himenaeos. Integer in est id massa consectetur placerat nec vitae lacus. Nulla nec iaculis
+      metus. Suspendisse varius placerat arcu et euismod. Aliquam sit amet semper est. Phasellus commodo vel lorem quis
+      tincidunt. Ut gravida vehicula orci vitae egestas. Ut a ligula ornare, lacinia felis vel, aliquam dui. Sed id
+      nunc augue.
 
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="https://i.ytimg.com/vi/xa3FW_FN5C4/maxresdefault.jpg" alt="Card article1">
-            <div class="card-body">
-              <h5 class="card-title font-weight-bold">Titre de l'article</h5>
-              <p class="card-text">Résumé de l'article : cet article est vraiment génial car bla bla bla</p>
-              <a href="#" class="btn btn-primary">Lire l'article</a>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="https://i.ytimg.com/vi/xa3FW_FN5C4/maxresdefault.jpg" alt="Card article1">
-            <div class="card-body">
-              <h5 class="card-title font-weight-bold">Titre de l'article</h5>
-              <p class="card-text">Résumé de l'article : cet article est vraiment génial car bla bla bla</p>
-              <a href="#" class="btn btn-primary">Lire l'article</a>
-            </div>
-          </div>
+      Suspendisse ultrices rhoncus vestibulum. Donec id quam risus. Pellentesque vulputate sed purus a gravida. Etiam
+      id tortor at dui gravida consectetur et id velit. Nunc non ipsum orci. Nulla eu sem augue. In quam magna,
+      suscipit sit amet sem eget, posuere commodo erat. Vestibulum scelerisque lectus sit amet ante placerat bibendum.
+      Suspendisse eget commodo ex. Mauris ultrices ligula vitae dapibus maximus. In hac habitasse platea dictumst.
+      Suspendisse eget scelerisque velit. Pellentesque ac ante imperdiet mi porta molestie eu vel velit.
+
+      Duis ornare quam ex, eget vestibulum dui ultricies at. Vivamus et hendrerit odio. Aliquam erat volutpat.
+      Phasellus efficitur nibh quam, id mollis ex fermentum eu. Nunc dictum condimentum enim ut pharetra. Phasellus non
+      cursus est, vitae egestas mauris. Quisque hendrerit est ac urna commodo tempus. Donec eu congue nunc. Phasellus a
+      tempus velit. Maecenas sed risus finibus, luctus mi et, auctor ipsum. Nulla odio ex, tincidunt a vehicula vel,
+      interdum et lacus. Aenean accumsan, sapien id pretium mollis, nulla orci rhoncus est, quis ullamcorper risus odio
+      et nisi.</p>
+
+  </div>
+
+  <div class="container mb-2">
+    <h3>Ces articles peuvent également vous intéresser....</h3>
+  </div>
+  <div class="container mb-5">
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="https://i.ytimg.com/vi/xa3FW_FN5C4/maxresdefault.jpg" alt="Card article1">
+        <div class="card-body">
+          <h5 class="card-title font-weight-bold">Titre de l'article</h5>
+          <p class="card-text">Résumé de l'article : cet article est vraiment génial car bla bla bla</p>
+          <a href="#" class="btn btn-primary">Lire l'article</a>
         </div>
       </div>
+      <div class="card">
+        <img class="card-img-top" src="https://i.ytimg.com/vi/xa3FW_FN5C4/maxresdefault.jpg" alt="Card article1">
+        <div class="card-body">
+          <h5 class="card-title font-weight-bold">Titre de l'article</h5>
+          <p class="card-text">Résumé de l'article : cet article est vraiment génial car bla bla bla</p>
+          <a href="#" class="btn btn-primary">Lire l'article</a>
 
-
-    <!-- Footer -->
-    <footer>
-        <div class="container-fluid ">
-            <div class="row d-flex justify-content-center ">
-                <button type="button" class="btn btn-fb rounded-circle m-4"><i class="fab fa-facebook-f"></i></button>
-                <button type="button" class="btn btn-tw rounded-circle m-4"><i class="fab fa-twitter"></i></button>
-                <button type="button" class="btn btn-insta rounded-circle m-4"><i class="fab fa-instagram"></i></button>
-            </div>
-            <div class="mentionLegales row d-flex justify-content-center my-2">
-                <h6><a href="#">Mentions légales</a></h6>
-            </div>
         </div>
-        <div class="copyright text-center py-3"><span>© 2018 Copyright:</span>
-            <h6><a href="#"> Photomania.fr</a></h6>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="https://i.ytimg.com/vi/xa3FW_FN5C4/maxresdefault.jpg" alt="Card article1">
+        <div class="card-body">
+          <h5 class="card-title font-weight-bold">Titre de l'article</h5>
+          <p class="card-text">Résumé de l'article : cet article est vraiment génial car bla bla bla</p>
+          <a href="#" class="btn btn-primary">Lire l'article</a>
         </div>
-    </footer>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="https://i.ytimg.com/vi/xa3FW_FN5C4/maxresdefault.jpg" alt="Card article1">
+        <div class="card-body">
+          <h5 class="card-title font-weight-bold">Titre de l'article</h5>
+          <p class="card-text">Résumé de l'article : cet article est vraiment génial car bla bla bla</p>
+          <a href="#" class="btn btn-primary">Lire l'article</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <!-- Optional JavaScrhttps://www.google.fr/imgres?imgurl=https%3A%2F%2Fwww.kenzanwildlifesafaris.com%2Fwp-content%2Fuploads%2F2015%2F04%2FDollarphotoclub_60674903_opt-1200x400.jpg&imgrefurl=https%3A%2F%2Fwww.kenzanwildlifesafaris.com%2F&docid=vP0Ej-gpoG_xNM&tbnid=67Sv1AXYrtzuZM%3A&vet=10ahUKEwjkxt_9wLXdAhWP_KQKHZJdC5QQMwgtKAQwBA..i&w=1200&h=400&bih=721&biw=1533&q=image%201200x400&ved=0ahUKEwjkxt_9wLXdAhWP_KQKHZJdC5QQMwgtKAQwBA&iact=mrc&uact=8ipt -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-  </body>
+  <!-- Footer -->
+  <footer>
+    <div class="container-fluid ">
+      <div class="row d-flex justify-content-center ">
+        <button type="button" class="btn btn-fb rounded-circle m-4"><i class="fab fa-facebook-f"></i></button>
+        <button type="button" class="btn btn-tw rounded-circle m-4"><i class="fab fa-twitter"></i></button>
+        <button type="button" class="btn btn-insta rounded-circle m-4"><i class="fab fa-instagram"></i></button>
+      </div>
+      <div class="mentionLegales row d-flex justify-content-center my-2">
+        <h6><a href="#">Mentions légales</a></h6>
+      </div>
+    </div>
+    <div class="copyright text-center py-3"><span>© 2018 All rights reserved. Development with <i class="fa fa-heart"
+          aria-hidden="true"></i>
+        by</span>
+      <h6>Photomania Team</h6>
+    </div>
+  </footer>
+  <!-- Fin Footer -->
+
+  <!-- Optional JavaScrhttps://www.google.fr/imgres?imgurl=https%3A%2F%2Fwww.kenzanwildlifesafaris.com%2Fwp-content%2Fuploads%2F2015%2F04%2FDollarphotoclub_60674903_opt-1200x400.jpg&imgrefurl=https%3A%2F%2Fwww.kenzanwildlifesafaris.com%2F&docid=vP0Ej-gpoG_xNM&tbnid=67Sv1AXYrtzuZM%3A&vet=10ahUKEwjkxt_9wLXdAhWP_KQKHZJdC5QQMwgtKAQwBA..i&w=1200&h=400&bih=721&biw=1533&q=image%201200x400&ved=0ahUKEwjkxt_9wLXdAhWP_KQKHZJdC5QQMwgtKAQwBA&iact=mrc&uact=8ipt -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+</body>
+
 </html>
