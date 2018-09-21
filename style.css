@@ -117,6 +117,7 @@ main, .article-head-photo {
 .articles-accueil .card h5{
     font-family: Libre Baskerville;
     color: #006A08;
+
 }
 
 .articles-accueil .card-footer{
@@ -162,6 +163,9 @@ main, .article-head-photo {
 .other-articles .card-footer .text-muted{
     color: white!important;
 }
+
+
+
 /*/////////////////////// CONTACT /////////////////////////*/
 .the-team {
     margin-top: 150px;
@@ -177,11 +181,6 @@ main, .article-head-photo {
 }
 
 
-
-
-
-
-
 .form{
     margin-top: 40px;
     background-color: #006A08;
@@ -192,9 +191,8 @@ main, .article-head-photo {
     color: white;
 }
 
-.form-inputs input{
-    color: white;
-}
+
+
 .form-inputs input::placeholder{
     color: white;
 }
@@ -204,6 +202,7 @@ main, .article-head-photo {
 .form .form-control{
     font-family: Source sans Pro;
     background: none;
+    color: white;
 }
 
 .form .btn{
@@ -218,8 +217,7 @@ main, .article-head-photo {
     color: #006A08;
     transform: scale(0.9);
     transition: all 0.2s;
-    }
-
+}
 
 
 
@@ -287,17 +285,19 @@ footer .copyright h6:hover{
     cursor: pointer;
     
 }
-<<<<<<< HEAD
-/*css page article*/
-.photo-article{
-  padding:0;
-}
 
+
+/*/////////////////////// GALERIE /////////////////////////*/
 
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,600);
 body{
   font-family: 'Quicksand', sans-serif;
 }
+
+.galerie{
+    margin-top: 150px;
+}
+
 .gal-container{
   padding: 12px;
 }
@@ -434,7 +434,6 @@ i.red{
 
 .container {
  overflow: hidden;
- margin: auto;
 }
 .box {
  float: left;
