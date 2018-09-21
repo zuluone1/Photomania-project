@@ -7,8 +7,12 @@
 	<link rel="icon" type="image/png" href="logo-black-favicon.png" />
 	<title>Photomania - For photography lovers</title>
 
-	<!-- Awesome Font -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<!-- FONTS -->
+    <!-- Awesome Font -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <!-- Libre Baskerville (titres) & Source Sans pro (texte) -->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Source+Sans+Pro" rel="stylesheet">
 	<!--- BOOTSRAP CDN --->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
@@ -17,146 +21,173 @@
 <body>
 
 	<!-- Nav -->
-	<nav class="navbar fixed-top navbar-expand-lg">
-		<a class="navbar-brand" href="#"><img src="logo-black-title-150.png" alt=""></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
+	<nav class="navbar fixed-top navbar-expand-xl">
+		<a class="navbar-brand" href="index.html"><img src="logo-white-title-150.png" alt=""></a>
 
-		<div class="collapse navbar-collapse " id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto ml-3 ">
-				<li class="nav-item mr-5 ">
-					<a class="nav-link " href="#">Matériel</a>
-				</li>
-				<li class="nav-item mr-5">
-					<a class="nav-link" href="#">Prise de vue</a>
-				</li>
-				<li class="nav-item mr-5">
-					<a class="nav-link" href="#">Retouches</a>
-				</li>
-				<li class="nav-item mr-5">
-					<a class="nav-link" href="#">Galerie</a>
-				</li>
-				<li class="nav-item mr-5">
-					<a class="nav-link" href="#">Contact</a>
-				</li>
-			</ul>
-			<form class="form-inline my-2 my-lg-0">
-				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-				<button class="btn btn-search my-2 my-sm-0" type="submit">Search</button>
-			</form>
-		</div>
-	</nav>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+		aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
 
-	<!---video---->
-
-	<div class="embed-responsive embed-responsive-16by9">
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/f5jGI13Gvqw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	<div class="collapse navbar-collapse text-center mt-3" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-auto ml-5 ">
+			<li class="nav-item mb-md-3 mb-sm-3  mr-5 ">
+				<a class="nav-link" href="materiel.html">Matériel</a>
+			</li>
+			<li class="nav-item mb-md-3 mb-sm-3 mr-5">
+				<a class="nav-link" href="prise-de-vue.html">Prise de vue</a>
+			</li>
+			<li class="nav-item mb-md-3 mb-sm-3 mr-5">
+				<a class="nav-link" href="retouche.html">Retouches</a>
+			</li>
+			<li class="nav-item mb-md-3 mb-sm-3 mr-5">
+				<a class="nav-link" href="galerie.html">Galerie</a>
+			</li>
+			<li class="nav-item mb-md-3 mb-sm-3 mr-5">
+				<a class="nav-link" href="contact.html">Contact</a>
+			</li>
+		</ul>
+		<form class="form-inline mb-md-3 mb-sm-3 d-flex justify-content-center">
+			<input class="form-control col-md-5 mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+			<button class="btn btn-search my-2 my-sm-0 " type="submit">Search</button>
+		</form>
 	</div>
+</nav>
+<!-- Fin nav -->
 
-	<!--galerie--->
+<!---video---->
 
-	<div class="container mt-5">
-		<div class="box">
-			<div class="boxInner">
-				<img id="myImageOne" src="DSC_1927.jpg" />
-			</div>
-		</div>
-		<div class="box">
-			<div class="boxInner">
-				<img id="myImageTwo" src="DSC_2326.jpg" />
-			</div>
-		</div>
-		<div class="box">
-			<div class="boxInner">
-				<img id="myImageThree" src="DSC_0233.jpg" />
-			</div>
-		</div>
-		<div class="box">
-			<div class="boxInner">
-				<img id="myImageFour" src="DSC_2042.jpg" />
-			</div>
-		</div>
-		<div class="box">
-			<div class="boxInner">
-				<img id="myImageFive" src="cool.jpg" />
-			</div>
-		</div>
-		<div class="box">
-			<div class="boxInner">
-				<img id="myImageSix" src="DSC_2283.jpg" />
-			</div>
-		</div>
-		<div class="box">
-			<div class="boxInner">
-				<img id="myImageSeven" src="DSC_2384.jpg" />
-			</div>
-		</div>
-		<div class="box">
-			<div class="boxInner">
-				<img id="myImageHeight" src="douceur (1 sur 1).jpg" />
-			</div>
-		</div>
-		<div class="box">
-			<div class="boxInner">
-				<img id="myImageNine" src="IMG_2443.jpg" />
-			</div>
-		</div>
-		<div class="box">
-			<div class="boxInner">
-				<img id="myImageTen" src="aerial.jpg" />
-			</div>
-		</div>
-		<div class="box">
-			<div class="boxInner">
-				<img id="myImageEleven" src="abandoned.jpg" />
-			</div>
-		</div>
-		<div class="box">
-			<div class="boxInner">
-				<img id="myImageTwelve" src="IMG_2447-2.jpg" />
-			</div>
-		</div>
-				<div class="box">
-			<div class="boxInner">
-				<img id="myImageThirdthree" src="DSC_1764.jpg" />
-			</div>
-		</div>
-		<div class="box">
-			<div class="boxInner">
-				<img id="myImagelala" src="DSC_2008.jpg" />
-			</div>
-		</div>
-		<div class="box">
-			<div class="boxInner">
-				<img id="myImage" src="DSC_1820.jpg" />
-			</div>
-		</div>
-		<div class="box">
-			<div class="boxInner">
-				<img id="myImg" src="DSC_0233.jpg" />
-			</div>
-		</div>
+<div class="embed-responsive embed-responsive-16by9">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/f5jGI13Gvqw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 
-		<!-- The Modal -->
-		<div id="myModal" class="modal">
+<!--galerie--->
 
-		  <!-- The Close Button -->
-		  <span class="close">&times;</span>
-
-		  <!-- Modal Content (The Image) -->
-		  <img class="modal-content" id="img01">
-
-		  <!-- Modal Caption (Image Text) -->
-		  <div id="caption"></div>
+<div class="container mt-5">
+	<div class="box">
+		<div class="boxInner">
+			<img id="myImageOne" src="DSC_1927.jpg" />
+		</div>
+	</div>
+	<div class="box">
+		<div class="boxInner">
+			<img id="myImageTwo" src="DSC_2326.jpg" />
+		</div>
+	</div>
+	<div class="box">
+		<div class="boxInner">
+			<img id="myImageThree" src="DSC_0233.jpg" />
+		</div>
+	</div>
+	<div class="box">
+		<div class="boxInner">
+			<img id="myImageFour" src="DSC_2042.jpg" />
+		</div>
+	</div>
+	<div class="box">
+		<div class="boxInner">
+			<img id="myImageFive" src="cool.jpg" />
+		</div>
+	</div>
+	<div class="box">
+		<div class="boxInner">
+			<img id="myImageSix" src="DSC_2283.jpg" />
+		</div>
+	</div>
+	<div class="box">
+		<div class="boxInner">
+			<img id="myImageSeven" src="DSC_2384.jpg" />
+		</div>
+	</div>
+	<div class="box">
+		<div class="boxInner">
+			<img id="myImageHeight" src="douceur (1 sur 1).jpg" />
+		</div>
+	</div>
+	<div class="box">
+		<div class="boxInner">
+			<img id="myImageNine" src="IMG_2443.jpg" />
+		</div>
+	</div>
+	<div class="box">
+		<div class="boxInner">
+			<img id="myImageTen" src="aerial.jpg" />
+		</div>
+	</div>
+	<div class="box">
+		<div class="boxInner">
+			<img id="myImageEleven" src="abandoned.jpg" />
+		</div>
+	</div>
+	<div class="box">
+		<div class="boxInner">
+			<img id="myImageTwelve" src="IMG_2447-2.jpg" />
+		</div>
+	</div>
+	<div class="box">
+		<div class="boxInner">
+			<img id="myImageThirdthree" src="DSC_1764.jpg" />
+		</div>
+	</div>
+	<div class="box">
+		<div class="boxInner">
+			<img id="myImagelala" src="DSC_2008.jpg" />
+		</div>
+	</div>
+	<div class="box">
+		<div class="boxInner">
+			<img id="myImage" src="DSC_1820.jpg" />
+		</div>
+	</div>
+	<div class="box">
+		<div class="boxInner">
+			<img id="myImg" src="DSC_0233.jpg" />
 		</div>
 	</div>
 
+	<!-- The Modal -->
+	<div id="myModal" class="modal">
+
+		<!-- The Close Button -->
+		<span class="close">&times;</span>
+
+		<!-- Modal Content (The Image) -->
+		<img class="modal-content" id="img01">
+
+		<!-- Modal Caption (Image Text) -->
+		<div id="caption"></div>
+	</div>
+</div>
+
+<!-- Footer -->
+<footer>
+	<div class="container-fluid ">
+		<div class="row d-flex justify-content-center mt-5 ">
+			<button type="button" class="btn btn-fb rounded-circle m-4"><i class="fab fa-facebook-f"></i></button>
+			<button type="button" class="btn btn-tw rounded-circle m-4"><i class="fab fa-twitter"></i></button>
+			<button type="button" class="btn btn-insta rounded-circle m-4"><i class="fab fa-instagram"></i></button>
+		</div>
+		<div class="mentionLegales row d-flex justify-content-center my-2">
+			<h6><a href="#">Mentions légales</a></h6>
+		</div>
+	</div>
+	<div class="copyright text-center py-3"><span>© 2018 All rights reserved. Development with <i class="fa fa-heart"
+		aria-hidden="true"></i>
+	by</span>
+	<h6>Photomania Team</h6>
+</div>
+</footer>
+<!-- Fin Footer -->
 
 
+ <!--lien bootstrap JS Jquery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 
-
-
-	<script type='text/javascript' src="photomania.js"></script>
+<script type='text/javascript' src="photomania.js"></script>
 </body>
 </html>
