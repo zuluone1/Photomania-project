@@ -3,7 +3,6 @@ p{
 }
 
 /*/////////////////////// NAVBAR /////////////////////////*/
-
 .navbar{
     background-color: #141910;
 }
@@ -84,9 +83,7 @@ main, .article-head-photo {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-
+  }
 .imageone img {
     filter: brightness(60%);
 }
@@ -115,7 +112,6 @@ main, .article-head-photo {
     background-color: #A0DE1F;
     transition: all 0.2s;
     color: #141910;
-    
 }
 
 .articles-accueil .card h5{
@@ -143,7 +139,6 @@ main, .article-head-photo {
     font-size: 2.3em;
     display: inline;
 }
-
 .canon5D figcaption{
     font-family: Source sans Pro;
 }
@@ -168,7 +163,6 @@ main, .article-head-photo {
     color: white!important;
 }
 /*/////////////////////// CONTACT /////////////////////////*/
-
 .the-team {
     margin-top: 150px;
 }
@@ -224,8 +218,8 @@ main, .article-head-photo {
     color: #006A08;
     transform: scale(0.9);
     transition: all 0.2s;
-    
-}
+    }
+
 
 
 
@@ -292,4 +286,321 @@ footer .copyright h6:hover{
     color:#A0DE1F;
     cursor: pointer;
     
+}
+<<<<<<< HEAD
+/*css page article*/
+.photo-article{
+  padding:0;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,600);
+body{
+  font-family: 'Quicksand', sans-serif;
+}
+.gal-container{
+  padding: 12px;
+}
+.gal-item{
+  overflow: hidden;
+  padding: 6px;
+}
+.gal-item .box{
+  height: 650px;
+  overflow: hidden;
+}
+.box img{
+  height: 100%;
+  width: 100%;
+  object-fit:cover;
+  -o-object-fit:cover;
+}
+.gal-item a:focus{
+  outline: none;
+}
+.gal-item a:after{
+  content:"\e006";
+  font-family: 'Glyphicons Halflings';
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  right: 6px;
+  left: 6px;
+  top: 6px;
+  bottom: 6px;
+  text-align: center;
+  line-height: 650px;
+  font-size: 60px;
+  color: #fff;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+.gal-item a:hover:after{
+  opacity: 1;
+}
+.modal-open .gal-container .modal{
+  background-color: rgba(0,0,0,0.4);
+}
+.modal-open .gal-item .modal-body{
+  padding: 0px;
+}
+.modal-open .gal-item button.close{
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: #000;
+  opacity: 1;
+  color: #fff;
+  z-index: 999;
+  right: -12px;
+  top: -12px;
+  border-radius: 50%;
+  font-size: 15px;
+  border: 2px solid #fff;
+  line-height: 25px;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0,0,0,0.65);
+  box-shadow: 0 0 1px 1px rgba(0,0,0,0.65);
+}
+.modal-open .gal-item button.close:focus{
+  outline: none;
+}
+.modal-open .gal-item button.close span{
+  position: relative;
+  top: -6px;
+  font-weight: lighter;
+  text-shadow:none;
+}
+.gal-container .modal-dialogue{
+  width: 80%;
+}
+.gal-container .description{
+  position: relative;
+  height: 40px;
+  top: -40px;
+  padding: 10px 25px;
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  text-align: left;
+}
+.gal-container .description h4{
+  margin:0px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.gal-container .modal.fade .modal-dialog {
+  -webkit-transform: scale(0.1);
+  -moz-transform: scale(0.1);
+  -ms-transform: scale(0.1);
+  transform: scale(0.1);
+  top: 100px;
+  opacity: 0;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.gal-container .modal.fade.in .modal-dialog {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transform: translate6d(0, -100px, 0);
+  transform: translate6d(0, -100px, 0);
+  opacity: 1;
+}
+@media (min-width: 768px) {
+  .gal-container .modal-dialog {
+    width: 55%;
+    margin: 50 auto;
+  }
+}
+@media (max-width: 768px) {
+  .gal-container .modal-content{
+    height:250px;
+  }
+}
+/* Footer Style */
+i.red{
+  color:#BC0216;
+}
+.gal-container{
+  padding-top :75px;
+  padding-bottom:75px;
+}
+
+/*galerie style */
+
+.container {
+ overflow: hidden;
+ margin: auto;
+}
+.box {
+ float: left;
+ position: relative;
+ width: 25%;
+ padding-bottom:20%;
+}
+.boxInner {
+ position: absolute;
+ left: 10px;
+ right: 10px;
+ top: 10px;
+ bottom: 10px;
+ overflow: hidden;
+}
+.boxInner img {
+ width: 100%;
+}
+.boxInner .titleBox {
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ margin-bottom: -50px;
+ background: #000;
+ background: rgba(0, 0, 0, 0.5);
+ color: #FFF;
+ padding: 10px;
+ text-align: center;
+ -webkit-transition: all 0.3s ease-out;
+ -moz-transition: all 0.3s ease-out;
+ -o-transition: all 0.3s ease-out;
+ transition: all 0.3s ease-out;
+}
+body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleBox {
+ margin-bottom: 0;
+}
+@media only screen and (max-width : 480px) {
+ /* Smartphone view: 1 tile */
+ .box {
+  width: 100%;
+  padding-bottom: 100%;
+}
+}
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+ /* Tablet view: 2 tiles */
+ .box {
+  width: 50%;
+  padding-bottom: 50%;
+}
+}
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+ /* Small desktop / ipad view: 3 tiles */
+ .box {
+  width: 33.3%;
+  padding-bottom: 33.3%;
+}
+}
+@media only screen and (max-width : 1290px) and (min-width : 1051px) {
+ /* Medium desktop: 4 tiles */
+ .box {
+  width: 25%;
+  padding-bottom: 25%;
+}
+}
+
+
+/* Style the Image Used to Trigger the Modal */
+#myImg, #myImage, #myImageOne, #myImageTwo, #myImageThree, #myImageFour, #myImageFive, #myImageSix, #myImageSeven, #myImageHeight, #myImageNine, #myImageTen, #myImageEleven, #myImageTwelve, #myImageThirdthree, #myImagelala{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover,
+#myImage:hover,
+#myImageOne:hover,
+#myImageTwo:hover,
+#myImageThree:hover,
+#myImageFour:hover,
+#myImageFive:hover,
+#myImageSix:hover,
+#myImageSeven:hover,
+#myImageHeight:hover,
+#myImageNine:hover,
+#myImageTen:hover,
+#myImageEleven:hover,
+#myImageTwelve:hover,
+#myImageThirdthree:hover,
+#myImagelala:hover
+{opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+/*---fin galerie---*/
+
+h2{
+    font-family: Libre Baskerville;
+    color: #006A08;
+
 }
