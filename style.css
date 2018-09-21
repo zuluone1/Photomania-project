@@ -308,11 +308,16 @@ footer .copyright{
     font-family: Bebas Neue;
 }
 
-footer .copyright h6 {
+footer .copyright h6{
+    display: inline;
+}
+
+footer .copyright a{
     display: inline;
     transition: 0.5s;
     font-family: Bebas Neue;
     font-weight: 700;
+    color: black;
 }
 
 footer .fa-heart{
