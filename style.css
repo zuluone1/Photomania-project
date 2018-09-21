@@ -211,6 +211,10 @@ main, .article-head-photo {
     font-size: 4em;
 }
 
+.the-team .claire{
+    transform: scaleX(-1);
+}
+
 .form{
     margin-top: 40px;
     background-color: #006A08;
