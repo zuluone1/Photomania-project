@@ -139,7 +139,7 @@ main, .article-head-photo {
 .articles-accueil .card-footer{
     background-color: #141910;
     font-family: Bebas Neue;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 .articles-accueil .card-footer .text-muted{
@@ -181,7 +181,7 @@ main, .article-head-photo {
 .other-articles .card-footer .text-muted{
     color: white!important;
     font-family: Bebas Neue;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 
