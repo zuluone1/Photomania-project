@@ -2,6 +2,12 @@ p{
     font-family: Source sans Pro;
 }
 
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("bebas_neue/BebasNeue-Regular.otf"),
+           url("bebas_neue/BebasNeue-Regular.ttf");
+   }
+
 /*/////////////////////// NAVBAR /////////////////////////*/
 .navbar{
     background-color: #141910;
@@ -12,7 +18,8 @@ p{
     position: relative;
     overflow: hidden;
     transition: color .3s cubic-bezier(0.11, 0.7, 0, 1);
-    font-family: Source sans Pro;
+    font-family: Bebas Neue;
+    font-size: 1.3em;
  }
 
  .nav-link{
@@ -49,7 +56,8 @@ p{
     background-color: white;
     color: #141910;
     transition: all 0.6s;
-    font-family: Libre Baskerville;
+    font-family: Bebas Neue;
+    font-size: 1.2em;
 }
 
 .navbar .form-inline .btn-search:hover {
@@ -58,8 +66,13 @@ p{
     transition: all 0.6s;
 }
 
-.navbar .form-inline .btn-search::placeholder{
+.navbar .form-inline{
     font-family: Source sans Pro;
+}
+
+.navbar input::placeholder{
+    font-family: Bebas Neue;
+    color: #006A08;
 }
 
 .navbar .navbar-toggler-icon {
@@ -83,7 +96,8 @@ main, .article-head-photo {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
+
 .imageone img {
     filter: brightness(60%);
 }
@@ -104,8 +118,8 @@ main, .article-head-photo {
     background-color: #006A08;
     border: none;
     transition: all 0.2s;
-    font-family: Libre Baskerville;
-    font-size: 0.8em;
+    font-family: Bebas Neue;
+    font-size: 1.2em;
 }
 
 .articles-accueil .btn:hover{
@@ -115,13 +129,17 @@ main, .article-head-photo {
 }
 
 .articles-accueil .card h5{
-    font-family: Libre Baskerville;
+    font-family: Bebas Neue;
     color: #006A08;
+    font-weight: 600;
+    font-size: 2em;
 
 }
 
 .articles-accueil .card-footer{
     background-color: #141910;
+    font-family: Bebas Neue;
+    font-size: 1.2em;
 }
 
 .articles-accueil .card-footer .text-muted{
@@ -135,9 +153,9 @@ main, .article-head-photo {
 }
 
 .canon5D h1{
-    font-family: Libre Baskerville;
+    font-family: Bebas Neue;
     color: #006A08;
-    font-size: 2.3em;
+    font-size: 3.5em;
     display: inline;
 }
 .canon5D figcaption{
@@ -145,15 +163,15 @@ main, .article-head-photo {
 }
 
 .other-articles h3{
-    font-family: Libre Baskerville;
+    font-family: Bebas Neue;
     color: #006A08;
-    font-size: 1.2em;
+    font-size: 2em;
 }
 
 .other-articles .card .card-title{
-    font-family: Libre Baskerville;
+    font-family: Bebas Neue;
     color: #006A08!important;
-    font-size: 0.8em;
+    font-size: 1.5em;
 }
 
 .other-articles .card .card-footer{
@@ -162,29 +180,41 @@ main, .article-head-photo {
 
 .other-articles .card-footer .text-muted{
     color: white!important;
+    font-family: Bebas Neue;
+    font-size: 1em;
 }
 
 
 
 /*/////////////////////// CONTACT /////////////////////////*/
 .the-team {
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
-.the-team h2, h4{
-    font-family: Libre Baskerville;
+.the-team h2{
+    font-family: Bebas Neue;
     color: #006A08;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.the-team h4{
+    font-family: Bebas Neue;
+    font-size: 2em;
+    color: #006A08;
+    font-weight: 400;
 }
 
 .form h2{
     color: white;
+    font-family: Bebas Neue;
+    font-size: 4em;
 }
-
 
 .form{
     margin-top: 40px;
     background-color: #006A08;
-    font-family: Libre Baskerville;
+    font-family: Bebas Neue;
 }
 
 .form-inputs{
@@ -192,13 +222,14 @@ main, .article-head-photo {
 }
 
 
-
 .form-inputs input::placeholder{
     color: white;
 }
+
 .form-inputs textarea::placeholder{
     color: white;
 }
+
 .form .form-control{
     font-family: Source sans Pro;
     background: none;
@@ -259,7 +290,8 @@ footer .btn-insta:hover {
 footer a {
     color: white;
     transition: 0.6s;
-    font-family: Source sans Pro;
+    font-family: Bebas Neue;
+    font-size: 1.2em;
     
 }
 
@@ -269,11 +301,14 @@ footer a:hover{
 }
 footer .copyright{
     background-color: white;
+    font-family: Bebas Neue;
 }
 
 footer .copyright h6 {
     display: inline;
     transition: 0.5s;
+    font-family: Bebas Neue;
+    font-weight: 700;
 }
 
 footer .fa-heart{
@@ -599,7 +634,7 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
 /*---fin galerie---*/
 
 h2{
-    font-family: Libre Baskerville;
+    font-family: Bebas Neue;
     color: #006A08;
 
 }
